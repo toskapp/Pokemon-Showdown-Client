@@ -95,8 +95,8 @@ header('P3P: CP="NOI CUR ADM DEV COM NAV STA OUR IND"');
 <body>
 <script>
 
-var config = <?php echo json_encode(json_encode($config)) ?>;
-var yourOrigin = <?php echo json_encode('http://' . $host) ?>;
+var config = "{\"host\":\"showdown-server-test-arburator.c9users.io\",\"id\":\"factions\",\"port\":80,\"registered\":true}";
+var yourOrigin = "http:\/\/factions.psim.us";
 var myOrigin = 'https://play.pokemonshowdown.com';
 
 function postMessage (message) {
